@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P5HLQ39W');</script>
+  <!-- End Google Tag Manager -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5HLQ39W"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header class="bg-blue-600 p-4 text-white">
+    <h1 class="text-3xl font-bold">Contact Us</h1>
+    <nav class="mt-2">
+      <a href="index.html" class="mr-4">Home</a>
+      <a href="services.html" class="mr-4">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="p-6 max-w-md mx-auto">
+    <form id="contact-form">
+      <label class="block mb-2">Name:</label>
+      <input type="text" class="w-full mb-4 p-2 border" name="name" required>
+
+      <label class="block mb-2">Email:</label>
+      <input type="email" class="w-full mb-4 p-2 border" name="email" required>
+
+      <label class="block mb-2">Message:</label>
+      <textarea class="w-full mb-4 p-2 border" name="message" required></textarea>
+
+      <button type="submit" class="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded">Send Message</button>
+    </form>
+  </main>
+</body>
+</html>
